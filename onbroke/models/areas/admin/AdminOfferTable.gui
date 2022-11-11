@@ -85,7 +85,7 @@ GUI _G6PuMVLlEe2djpkPxa2Z3Q {
   	}
   }
   
-  Template _G6RjYVLlEe2djpkPxa2Z3Q at 300,10 size 1180,350 {
+  Template _G6RjYVLlEe2djpkPxa2Z3Q at 300,10 size 1410,350 {
   	blockName ""
   	disableAutoLayout false
   	generalStyle GeneralStyling _G6SKcFLlEe2djpkPxa2Z3Q {
@@ -125,7 +125,7 @@ GUI _G6PuMVLlEe2djpkPxa2Z3Q {
   		}
   	}
   	
-  	Table _K8y9oVLlEe2djpkPxa2Z3Q at 10,100 size 1160,220 {
+  	Table _K8y9oVLlEe2djpkPxa2Z3Q at 10,100 size 1390,220 {
   		striped true
   		numbering false
   		pagination 20
@@ -198,7 +198,7 @@ GUI _G6PuMVLlEe2djpkPxa2Z3Q {
   			}
   		}
   		
-  		TableEntry _K80Lw1LlEe2djpkPxa2Z3Q at 470,30 size 670,170 {
+  		TableEntry _K80Lw1LlEe2djpkPxa2Z3Q at 700,30 size 670,170 {
   			fullTextSearch false
   			defaultSorting NONE
   			label "Actions"
@@ -369,6 +369,55 @@ GUI _G6PuMVLlEe2djpkPxa2Z3Q {
   				}
   				
   				MoveDown _exvHxVLlEe2djpkPxa2Z3Q at 2,10 size 14,7 {
+  				}
+  			}
+  		}
+  		
+  		TableEntry _hKMK4WGhEe2SIeIc0TVXOQ at 470,30 size 220,120 {
+  			fullTextSearch false
+  			defaultSorting NONE
+  			label "Status"
+  			sortable false
+  			generalStyle GeneralStyling _hKbbcGGhEe2SIeIc0TVXOQ {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  					rawContent ""
+  				}
+  			MoveLeft _hKS4kWGhEe2SIeIc0TVXOQ at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _hKTfoWGhEe2SIeIc0TVXOQ at 10,2 size 7,14 {
+  			}
+  			
+  			Text _3Lb0gWGhEe2SIeIc0TVXOQ at 10,30 size 200,60 {
+  				content [ StaticContent _3LmzoGGhEe2SIeIc0TVXOQ {
+  						renderMarkdown false
+  						maxChars 0
+  						html false
+  						rawContent "{{offer.status}}\n"
+  						styling TextStyling _3LmzoWGhEe2SIeIc0TVXOQ {
+  								small false
+  								highlight false
+  								deleted false
+  								underline false
+  								bold false
+  								alignment Left
+  								italic false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling _3Le30GGhEe2SIeIc0TVXOQ {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _3LdCoWGhEe2SIeIc0TVXOQ at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _3LdpsWGhEe2SIeIc0TVXOQ at 2,10 size 14,7 {
   				}
   			}
   		}

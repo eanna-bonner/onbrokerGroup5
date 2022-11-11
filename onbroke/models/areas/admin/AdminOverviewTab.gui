@@ -27,7 +27,7 @@ GUI _8iqPUVLkEe2djpkPxa2Z3Q {
   		name "offers"
   		dfViewWorkaround true
   		isList true
-  		-ComplexRead-> _IzRP4VLmEe2djpkPxa2Z3Q  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		-ComplexRead-> _5x0n8WGhEe2SIeIc0TVXOQ  decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _JSLZcVLmEe2djpkPxa2Z3Q
   		}
   	}
@@ -40,7 +40,7 @@ GUI _8iqPUVLkEe2djpkPxa2Z3Q {
   		name "biddings"
   		dfViewWorkaround true
   		isList true
-  		-ComplexRead-> _M88MQVLsEe2djpkPxa2Z3Q  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		-ComplexRead-> _5HhtwWGhEe2SIeIc0TVXOQ  decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _iGMQMVLnEe2djpkPxa2Z3Q
   		}
   	}
@@ -231,7 +231,7 @@ GUI _8iqPUVLkEe2djpkPxa2Z3Q {
   		MoveDown _8Gtdy1LlEe2djpkPxa2Z3Q at 2,10 size 14,7 {
   		}
   		
-  		GUISIB _IzLwUVLmEe2djpkPxa2Z3Q at 10,30 size 150,294 {
+  		GUISIB _5xf30WGhEe2SIeIc0TVXOQ at 10,30 size 150,294 {
   			libraryComponentUID "_G6PuMVLlEe2djpkPxa2Z3Q"
   			label "AdminOfferTable"
   			generalStyle GeneralStyling _Iz0pgFLmEe2djpkPxa2Z3Q {
@@ -240,43 +240,43 @@ GUI _8iqPUVLkEe2djpkPxa2Z3Q {
   					attributes [  ]
   					marginTop None
   				}
-  			ComplexInputPort _IzRP4VLmEe2djpkPxa2Z3Q at 5,67 size 90,18 {
+  			ComplexInputPort _5x0n8WGhEe2SIeIc0TVXOQ at 5,67 size 90,18 {
   				libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
   				isList true
   				name "offers"
   			}
   			
-  			Branch _IzWvcVLmEe2djpkPxa2Z3Q at 5,90 size 100,50 {
+  			Branch _5yA1MWGhEe2SIeIc0TVXOQ at 5,90 size 100,50 {
   				name "Show offer"
-  				ComplexOutputPort _IzZywVLmEe2djpkPxa2Z3Q at 5,27 size 90,18 {
+  				ComplexOutputPort _5yHi4WGhEe2SIeIc0TVXOQ at 5,27 size 90,18 {
   					libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
   					name "offer"
   					isList false
   				}
   			}
   			
-  			Branch _Izf5YVLmEe2djpkPxa2Z3Q at 5,158 size 100,50 {
+  			Branch _5ySiAGGhEe2SIeIc0TVXOQ at 5,158 size 100,50 {
   				name "Edit offer"
-  				ComplexOutputPort _IzjjwVLmEe2djpkPxa2Z3Q at 5,27 size 90,18 {
+  				ComplexOutputPort _5yXagWGhEe2SIeIc0TVXOQ at 5,27 size 90,18 {
   					libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
   					name "offer"
   					isList false
   				}
   			}
   			
-  			Branch _IzpqYVLmEe2djpkPxa2Z3Q at 5,226 size 100,50 {
+  			Branch _5yf9YWGhEe2SIeIc0TVXOQ at 5,226 size 100,50 {
   				name "Delete offer"
-  				ComplexOutputPort _IztUwVLmEe2djpkPxa2Z3Q at 5,27 size 90,18 {
+  				ComplexOutputPort _5ylc8WGhEe2SIeIc0TVXOQ at 5,27 size 90,18 {
   					libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
   					name "offer"
   					isList false
   				}
   			}
   			
-  			MoveUp _Iz0CcVLmEe2djpkPxa2Z3Q at 2,2 size 14,7 {
+  			MoveUp _5yum4WGhEe2SIeIc0TVXOQ at 2,2 size 14,7 {
   			}
   			
-  			MoveDown _Iz0Cc1LmEe2djpkPxa2Z3Q at 2,10 size 14,7 {
+  			MoveDown _5yvN8WGhEe2SIeIc0TVXOQ at 2,10 size 14,7 {
   			}
   		}
   	}
@@ -316,7 +316,7 @@ GUI _8iqPUVLkEe2djpkPxa2Z3Q {
   		MoveDown _-X7SZFLlEe2djpkPxa2Z3Q at 2,10 size 14,7 {
   		}
   		
-  		GUISIB _M8qfcVLsEe2djpkPxa2Z3Q at 10,30 size 150,294 {
+  		GUISIB _5HIFIWGhEe2SIeIc0TVXOQ at 10,30 size 150,294 {
   			libraryComponentUID "_QIJywVLmEe2djpkPxa2Z3Q"
   			label "AdminBiddingTable"
   			generalStyle GeneralStyling _gBAsYFLnEe2djpkPxa2Z3Q {
@@ -325,43 +325,43 @@ GUI _8iqPUVLkEe2djpkPxa2Z3Q {
   					attributes [  ]
   					marginTop None
   				}
-  			ComplexInputPort _M88MQVLsEe2djpkPxa2Z3Q at 5,67 size 90,18 {
+  			ComplexInputPort _5HhtwWGhEe2SIeIc0TVXOQ at 5,67 size 90,18 {
   				libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
   				isList true
   				name "biddings"
   			}
   			
-  			Branch _M9GkUVLsEe2djpkPxa2Z3Q at 5,90 size 100,50 {
+  			Branch _5HuiEGGhEe2SIeIc0TVXOQ at 5,90 size 100,50 {
   				name "Show bidding"
-  				ComplexOutputPort _M9Mq8VLsEe2djpkPxa2Z3Q at 5,27 size 90,18 {
+  				ComplexOutputPort _5H0osWGhEe2SIeIc0TVXOQ at 5,27 size 90,18 {
   					libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
   					name "bidding"
   					isList false
   				}
   			}
   			
-  			Branch _M9XqEVLsEe2djpkPxa2Z3Q at 5,158 size 100,50 {
+  			Branch _5H_AwWGhEe2SIeIc0TVXOQ at 5,158 size 100,50 {
   				name "Edit bidding"
-  				ComplexOutputPort _M9dwsVLsEe2djpkPxa2Z3Q at 5,27 size 90,18 {
+  				ComplexOutputPort _5ID5QWGhEe2SIeIc0TVXOQ at 5,27 size 90,18 {
   					libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
   					name "bidding"
   					isList false
   				}
   			}
   			
-  			Branch _M9ov0VLsEe2djpkPxa2Z3Q at 5,226 size 100,50 {
+  			Branch _5INDMWGhEe2SIeIc0TVXOQ at 5,226 size 100,50 {
   				name "Delete bidding"
-  				ComplexOutputPort _M9u2cVLsEe2djpkPxa2Z3Q at 5,27 size 90,18 {
+  				ComplexOutputPort _5ISiwWGhEe2SIeIc0TVXOQ at 5,27 size 90,18 {
   					libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
   					name "bidding"
   					isList false
   				}
   			}
   			
-  			MoveUp _M96coVLsEe2djpkPxa2Z3Q at 2,2 size 14,7 {
+  			MoveUp _5IcTwWGhEe2SIeIc0TVXOQ at 2,2 size 14,7 {
   			}
   			
-  			MoveDown _M96co1LsEe2djpkPxa2Z3Q at 2,10 size 14,7 {
+  			MoveDown _5Ic60WGhEe2SIeIc0TVXOQ at 2,10 size 14,7 {
   			}
   		}
   	}

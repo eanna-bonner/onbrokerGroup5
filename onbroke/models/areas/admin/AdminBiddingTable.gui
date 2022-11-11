@@ -100,7 +100,7 @@ GUI _QIJywVLmEe2djpkPxa2Z3Q {
   	}
   }
   
-  Template _QILA4VLmEe2djpkPxa2Z3Q at 298,10 size 1180,350 {
+  Template _QILA4VLmEe2djpkPxa2Z3Q at 298,10 size 1410,350 {
   	blockName ""
   	disableAutoLayout false
   	generalStyle GeneralStyling _QILn8FLmEe2djpkPxa2Z3Q {
@@ -140,7 +140,7 @@ GUI _QIJywVLmEe2djpkPxa2Z3Q {
   		}
   	}
   	
-  	Table _UTSWcVLmEe2djpkPxa2Z3Q at 10,100 size 1160,220 {
+  	Table _UTSWcVLmEe2djpkPxa2Z3Q at 10,100 size 1390,220 {
   		striped true
   		numbering false
   		pagination 20
@@ -213,7 +213,7 @@ GUI _QIJywVLmEe2djpkPxa2Z3Q {
   			}
   		}
   		
-  		TableEntry _UTULwlLmEe2djpkPxa2Z3Q at 470,30 size 670,170 {
+  		TableEntry _UTULwlLmEe2djpkPxa2Z3Q at 700,30 size 670,170 {
   			fullTextSearch false
   			defaultSorting NONE
   			label "Actions"
@@ -384,6 +384,55 @@ GUI _QIJywVLmEe2djpkPxa2Z3Q {
   				}
   				
   				MoveDown _UTXO9FLmEe2djpkPxa2Z3Q at 2,10 size 14,7 {
+  				}
+  			}
+  		}
+  		
+  		TableEntry _tr1tkWGhEe2SIeIc0TVXOQ at 470,30 size 220,120 {
+  			fullTextSearch false
+  			defaultSorting NONE
+  			label "Status"
+  			sortable false
+  			generalStyle GeneralStyling _tr-QcGGhEe2SIeIc0TVXOQ {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  					rawContent "\n"
+  				}
+  			MoveLeft _tr2UoWGhEe2SIeIc0TVXOQ at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _tr27sWGhEe2SIeIc0TVXOQ at 10,2 size 7,14 {
+  			}
+  			
+  			Text _0CtJAWGhEe2SIeIc0TVXOQ at 10,30 size 200,60 {
+  				content [ StaticContent _0C7LcGGhEe2SIeIc0TVXOQ {
+  						renderMarkdown false
+  						maxChars 0
+  						html false
+  						rawContent "{{bidding.status}}"
+  						styling TextStyling _0C9nsGGhEe2SIeIc0TVXOQ {
+  								small false
+  								highlight false
+  								deleted false
+  								underline false
+  								bold false
+  								alignment Left
+  								italic false
+  								color Default
+  							}
+  					} ]
+  				generalStyle GeneralStyling _0CwzYGGhEe2SIeIc0TVXOQ {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _0Cu-MWGhEe2SIeIc0TVXOQ at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _0CvlQWGhEe2SIeIc0TVXOQ at 2,10 size 14,7 {
   				}
   			}
   		}

@@ -40,7 +40,7 @@ GUI _YggYMVFOEe2J0bu3ffrh5w {
   		name "users"
   		dfViewWorkaround true
   		isList true
-  		-ComplexRead-> _N4Fl4VLsEe2djpkPxa2Z3Q  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		-ComplexRead-> _6wBVkWGhEe2SIeIc0TVXOQ  decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _PLE_IVLpEe2djpkPxa2Z3Q
   		}
   	}
@@ -53,7 +53,7 @@ GUI _YggYMVFOEe2J0bu3ffrh5w {
   		name "offers"
   		dfViewWorkaround true
   		isList true
-  		-ComplexRead-> _N4PW4VLsEe2djpkPxa2Z3Q  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		-ComplexRead-> _6wJ4cGGhEe2SIeIc0TVXOQ  decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _O32hIVLpEe2djpkPxa2Z3Q
   		}
   	}
@@ -66,7 +66,7 @@ GUI _YggYMVFOEe2J0bu3ffrh5w {
   		name "biddings"
   		dfViewWorkaround true
   		isList true
-  		-ComplexRead-> _N4Yg0VLsEe2djpkPxa2Z3Q  decorate "" at (0,0) decorate "Text" at (0,0) {
+  		-ComplexRead-> _6wRNMWGhEe2SIeIc0TVXOQ  decorate "" at (0,0) decorate "Text" at (0,0) {
   			id _OjezoVLpEe2djpkPxa2Z3Q
   		}
   	}
@@ -143,7 +143,7 @@ GUI _YggYMVFOEe2J0bu3ffrh5w {
   					MoveRight _2KxhTFLZEe2djpkPxa2Z3Q at 10,2 size 7,14 {
   					}
   					
-  					GUISIB _N3yq8VLsEe2djpkPxa2Z3Q at 10,30 size 150,713 {
+  					GUISIB _6v1IUWGhEe2SIeIc0TVXOQ at 10,30 size 150,713 {
   						libraryComponentUID "_8iqPUVLkEe2djpkPxa2Z3Q"
   						label "AdminOverviewTab"
   						generalStyle GeneralStyling _G-c78FLpEe2djpkPxa2Z3Q {
@@ -152,104 +152,104 @@ GUI _YggYMVFOEe2J0bu3ffrh5w {
   								attributes [  ]
   								marginTop None
   							}
-  						ComplexInputPort _N4Fl4VLsEe2djpkPxa2Z3Q at 5,67 size 90,18 {
+  						ComplexInputPort _6wBVkWGhEe2SIeIc0TVXOQ at 5,67 size 90,18 {
   							libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   							isList true
   							name "users"
   						}
   						
-  						ComplexInputPort _N4PW4VLsEe2djpkPxa2Z3Q at 5,85 size 90,18 {
+  						ComplexInputPort _6wJ4cGGhEe2SIeIc0TVXOQ at 5,85 size 90,18 {
   							libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
   							isList true
   							name "offers"
   						}
   						
-  						ComplexInputPort _N4Yg0VLsEe2djpkPxa2Z3Q at 5,103 size 90,18 {
+  						ComplexInputPort _6wRNMWGhEe2SIeIc0TVXOQ at 5,103 size 90,18 {
   							libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
   							isList true
   							name "biddings"
   						}
   						
-  						Branch _N4hqwVLsEe2djpkPxa2Z3Q at 5,126 size 100,50 {
+  						Branch _6wZJAWGhEe2SIeIc0TVXOQ at 5,126 size 100,50 {
   							name "Edit user"
-  							ComplexOutputPort _N4nKUVLsEe2djpkPxa2Z3Q at 5,27 size 90,18 {
+  							ComplexOutputPort _6wdacWGhEe2SIeIc0TVXOQ at 5,27 size 90,18 {
   								libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   								name "user"
   								isList false
   							}
   						}
   						
-  						Branch _N4wUQVLsEe2djpkPxa2Z3Q at 5,194 size 100,50 {
+  						Branch _6wlWQWGhEe2SIeIc0TVXOQ at 5,194 size 100,50 {
   							name "Delete user"
-  							ComplexOutputPort _N42a4VLsEe2djpkPxa2Z3Q at 5,27 size 90,18 {
+  							ComplexOutputPort _6wpnsWGhEe2SIeIc0TVXOQ at 5,27 size 90,18 {
   								libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
   								name "user"
   								isList false
   							}
   						}
   						
-  						Branch _N5AL4VLsEe2djpkPxa2Z3Q at 5,262 size 100,25 {
+  						Branch _6wxjgWGhEe2SIeIc0TVXOQ at 5,262 size 100,25 {
   							name "Create user"
   						}
   						
-  						Branch _N5GSgVLsEe2djpkPxa2Z3Q at 5,305 size 100,50 {
+  						Branch _6w2cAWGhEe2SIeIc0TVXOQ at 5,305 size 100,50 {
   							name "Show offer"
-  							ComplexOutputPort _N5MZIVLsEe2djpkPxa2Z3Q at 5,27 size 90,18 {
+  							ComplexOutputPort _6w6tcWGhEe2SIeIc0TVXOQ at 5,27 size 90,18 {
   								libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
   								name "offer"
   								isList false
   							}
   						}
   						
-  						Branch _N5WxMVLsEe2djpkPxa2Z3Q at 5,373 size 100,50 {
+  						Branch _6xDQUWGhEe2SIeIc0TVXOQ at 5,373 size 100,50 {
   							name "Edit offer"
-  							ComplexOutputPort _N5cQwVLsEe2djpkPxa2Z3Q at 5,27 size 90,18 {
+  							ComplexOutputPort _6xII0WGhEe2SIeIc0TVXOQ at 5,27 size 90,18 {
   								libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
   								name "offer"
   								isList false
   							}
   						}
   						
-  						Branch _N5nP4VLsEe2djpkPxa2Z3Q at 5,441 size 100,50 {
+  						Branch _6xQrsWGhEe2SIeIc0TVXOQ at 5,441 size 100,50 {
   							name "Delete offer"
-  							ComplexOutputPort _N5tWgVLsEe2djpkPxa2Z3Q at 5,27 size 90,18 {
+  							ComplexOutputPort _6xU9IWGhEe2SIeIc0TVXOQ at 5,27 size 90,18 {
   								libraryComponentUID "_DJ1LAVFNEe2J0bu3ffrh5w"
   								name "offer"
   								isList false
   							}
   						}
   						
-  						Branch _N54VoVLsEe2djpkPxa2Z3Q at 5,509 size 100,50 {
+  						Branch _6xeHEWGhEe2SIeIc0TVXOQ at 5,509 size 100,50 {
   							name "Show bidding"
-  							ComplexOutputPort _N5-cQVLsEe2djpkPxa2Z3Q at 5,27 size 90,18 {
+  							ComplexOutputPort _6xi_kWGhEe2SIeIc0TVXOQ at 5,27 size 90,18 {
   								libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
   								name "bidding"
   								isList false
   							}
   						}
   						
-  						Branch _N6KpgVLsEe2djpkPxa2Z3Q at 5,577 size 100,50 {
+  						Branch _6xricWGhEe2SIeIc0TVXOQ at 5,577 size 100,50 {
   							name "Edit bidding"
-  							ComplexOutputPort _N6RXMVLsEe2djpkPxa2Z3Q at 5,27 size 90,18 {
+  							ComplexOutputPort _6xwa8WGhEe2SIeIc0TVXOQ at 5,27 size 90,18 {
   								libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
   								name "bidding"
   								isList false
   							}
   						}
   						
-  						Branch _N6c9YVLsEe2djpkPxa2Z3Q at 5,645 size 100,50 {
+  						Branch _6x5k4WGhEe2SIeIc0TVXOQ at 5,645 size 100,50 {
   							name "Delete bidding"
-  							ComplexOutputPort _N6jEAVLsEe2djpkPxa2Z3Q at 5,27 size 90,18 {
+  							ComplexOutputPort _6x_EcWGhEe2SIeIc0TVXOQ at 5,27 size 90,18 {
   								libraryComponentUID "_FSL-oVFNEe2J0bu3ffrh5w"
   								name "bidding"
   								isList false
   							}
   						}
   						
-  						MoveUp _N6v4UVLsEe2djpkPxa2Z3Q at 2,2 size 14,7 {
+  						MoveUp _6yIOYWGhEe2SIeIc0TVXOQ at 2,2 size 14,7 {
   						}
   						
-  						MoveDown _N6wfYVLsEe2djpkPxa2Z3Q at 2,10 size 14,7 {
+  						MoveDown _6yI1cWGhEe2SIeIc0TVXOQ at 2,10 size 14,7 {
   						}
   					}
   				}
